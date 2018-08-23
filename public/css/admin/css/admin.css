@@ -1,0 +1,30 @@
+.slika{
+    width: 100px;
+    height: 80px;
+    margin-bottom: 4px;
+    transition: transform .2s;
+}
+.slika img{
+    width: 150%;
+    height: 100%;
+}
+
+.slika:hover {
+    transform: scale(2.0);
+}
+
+.slikaApartmana{
+    width: 80px;
+    height: 60px;
+    margin-bottom: 4px;
+    transition: transform .2s;
+}
+.slikaApartmana img{
+    width: 150%;
+    height: 100%;
+}
+
+.slikaApartmana:hover {
+    transform: scale(1.5);
+}
+
